@@ -2,8 +2,12 @@
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![OOP](https://img.shields.io/badge/OOP-Concepts-blue)
-![GitHub repo size](https://img.shields.io/github/repo-size/Sandhiyamrs/Java-OOP-Mastery)
-![GitHub last commit](https://img.shields.io/github/last-commit/Sandhiyamrs/Java-OOP-Mastery)
+![Design Patterns](https://img.shields.io/badge/Design-Patterns-success)
+![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![GitHub stars](https://img.shields.io/github/stars/Sandhiyamrs/Java-OOP-Mastery?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Sandhiyamrs/Java-OOP-Mastery?style=social)
+
 
 ✨ **Java-OOP-Mastery** is a clean, structured, and practical Java project demonstrating **complete Object-Oriented Programming (OOP) concepts** with real-world examples and best practices.
 
