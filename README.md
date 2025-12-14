@@ -1,109 +1,134 @@
-# 🟢 Java-OOP-Mastery
+# 🚀 Java-OOP-Mastery
 
-✨ A clean and practical Java project demonstrating **complete Object-Oriented Programming (OOP) concepts** — including 🧩 classes, 🏛️ inheritance, 🔄 polymorphism, 🔐 encapsulation, 🧠 abstraction, ⚙️ composition, and 🎯 simple design patterns.
+![Java](https://img.shields.io/badge/Java-17-orange)
+![OOP](https://img.shields.io/badge/OOP-Concepts-blue)
+![GitHub repo size](https://img.shields.io/github/repo-size/Sandhiyamrs/Java-OOP-Mastery)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sandhiyamrs/Java-OOP-Mastery)
 
----
-
-## 📚 Modules / Topics
-
-| Module / Folder | Description |
-|-----------------|-------------|
-| **abstraction/** | Abstract classes and methods examples (`Animal-Dog`, `Shape-Circle`). |
-| **encapsulation/** | Data protection using private fields & getters/setters (`Student`, `BankAccount`). |
-| **finalkeyword/** | Usage of `final` keyword: final variables, methods, and classes. |
-| **inheritance/** | Class inheritance, constructor chaining, hierarchical relationships (`Person`, `Employee`, `Manager`). |
-| **interfaces/** | Interfaces in Java and their implementations. |
-| **polymorphism/** | Compile-time (overloading) and runtime (overriding) polymorphism examples. |
-| **overloading/** | Method overloading demos. |
-| **overriding/** | Method overriding demos. |
-| **staticdemo/** | `static` variables, methods, and blocks. |
-| **innerclasses/** | Member, static, and anonymous inner classes examples. |
+✨ **Java-OOP-Mastery** is a clean, structured, and practical Java project demonstrating **complete Object-Oriented Programming (OOP) concepts** with real-world examples and best practices.
 
 ---
 
-## ⚡ How to Run
+## 📌 OOP Concepts Covered
 
-1. Open **terminal/command prompt** in the repo root:
-
-```bash
-cd C:\Java-OOP-Mastery\src\main\java
-
---
-
-2.Compile the module you want:
-javac com/example/oop/<module>/*.java
-
---
-
-3.Run the main class of that module:
-java com.example.oop.<module>.<MainClass>
-
---
-
-Example: Run Encapsulation module:
-javac com/example/oop/encapsulation/*.java
-java com.example.oop.encapsulation.MainEncapsulation
+```
+Object-Oriented Programming
+│
+├── Encapsulation
+├── Inheritance
+├── Polymorphism
+├── Abstraction
+│
+├── Interfaces
+├── Inner Classes
+├── Static & Final Keywords
+├── Method Overloading & Overriding
+│
+├── Composition
+└── Design Patterns
+    ├── Singleton
+    └── Factory
+```
 
 ---
 
+## 📂 Project Structure
 
-💻 Example Output
-Abstraction
-bash
-Copy code
-Dog barks
-Animals can sleep
-Calculating area of shape...
-Area = 78.5
-Encapsulation
-yaml
-Copy code
-Student Name: Sandy
-Age: 20
-Department: Computer Science
-Deposited: 1500.0
-Withdrawn: 2000.0
-Final Balance: 4500.0
-Final Keyword
-yaml
-Copy code
-Max allowed students: 50
-Car engine starts!
-Addition: 30
-Inheritance
-yaml
-Copy code
-Name: Sandy, Age: 22
-Salary: 85000.0
-Department: Software Development
-📌 Recommended IDE
-VS Code or IntelliJ IDEA
-
-Java JDK 17 or above
-
-🛠 Features
-Clean folder structure for each OOP concept
-
-Fully commented code for learning and reference
-
-Ready-to-run examples for beginners and intermediate learners
-
-🔖 Topics (for GitHub)
-java oop object-oriented-programming abstraction encapsulation inheritance polymorphism overloading overriding interfaces inner-classes final static
-
-🤝 Contribution
-Feel free to fork this repo, add more OOP examples, or enhance existing modules.
-
-yaml
-Copy code
+```
+src/main/java/com/example/oop
+│
+├── abstraction/
+├── encapsulation/
+├── inheritance/
+├── polymorphism/
+├── interfaces/
+├── innerclasses/
+├── staticdemo/
+├── finalkeyword/
+├── overloading/
+├── overriding/
+├── composition/
+├── designpatterns/
+│   ├── singleton/
+│   └── factory/
+│
+├── model/
+├── service/
+└── util/
+```
 
 ---
 
-Sandy, if you want, I can also **add small badges** (like Java version, license, repo size) to make the README **more professional and eye-catching**.  
+## 🧠 Concept Diagrams (Simple)
 
-Do you want me to do that next?
+### 🔐 Encapsulation
 
+```
++-------------+
+|   Student   |
+|-------------|
+| - name      |
+| - age       |
+|-------------|
+| +getName()  |
+| +setName()  |
++-------------+
+```
 
+### 🏛️ Inheritance
 
+```
+Person
+  ↑
+Employee
+  ↑
+Manager
+```
 
+### 🔄 Polymorphism
 
+```
+Shape shape = new Circle();
+Shape shape = new Rectangle();
+```
+
+### 🧩 Composition
+
+```
+Car ──▶ Engine
+```
+
+---
+
+## ▶️ How to Run
+
+See 👉 **RUN.md** for detailed execution steps for each module.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* Java 17+
+* VS Code
+* Git & GitHub
+* Command Line (javac & java)
+
+---
+
+## 🎯 Learning Outcomes
+
+✔ Strong OOP fundamentals
+✔ Clean package design
+✔ Interview-ready examples
+✔ Real-world coding practices
+
+---
+
+## 👤 Author
+
+**Sandy**
+📧 [sandhiyamrs2006@gmail.com](mailto:sandhiyamrs2006@gmail.com)
+
+---
+
+⭐ If you find this repo useful, **give it a star!**
